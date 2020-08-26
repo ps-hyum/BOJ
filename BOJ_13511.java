@@ -153,6 +153,7 @@ public class BOJ_13511 {
 			int weight = Integer.parseInt(st.nextToken());
 			main.setTree(from, to, weight);
 		}
+		
 		main.dfs(1, 0, 0);
 		main.setTable();
 		int M = Integer.parseInt(br.readLine());
